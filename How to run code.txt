@@ -1,0 +1,8 @@
+Step-1 : Run data-collections.py 5-6 times and select different name for your emotion/pattern.
+	 Its data will be recorded one by one in name.npy file
+
+Step-2 : After collecting data for 5-6 emotions run data_training.py and wait for it to finish.
+
+Step-3 : Run inference.py to test the model and check if it is working properly.
+
+Step-4 : Use the aqcuired emotion data of user as per need in various projects. Enjoy
