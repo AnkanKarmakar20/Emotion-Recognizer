@@ -2,6 +2,8 @@ Step-1 : Run data-collections.py 5-6 times and select different name for your em
 	 Its data will be recorded one by one in name.npy file
 
 Step-2 : After collecting data for 5-6 emotions run data_training.py and wait for it to finish.
+	 It will create the logic data for inference in models.h5 and labels.npy file. 
+	 (These 2 files will be created automatically upon runnning the training file)
 
 Step-3 : Run inference.py to test the model and check if it is working properly.
 
